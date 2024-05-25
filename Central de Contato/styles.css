@@ -1,0 +1,427 @@
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgb(131, 131, 131),
+    rgb(0, 77, 139),
+    rgb(87, 0, 90)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.IMAGEN-LOGO {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.212);
+  border: 4px rgb(206, 206, 206);
+  border-radius: 100%;
+  border-style: solid;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 15px 5px rgba(0, 109, 199, 0.4);
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.box1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.158);
+  border: solid rgb(206, 206, 206);
+  border-radius: 30px;
+  padding: 240px 190px;
+  margin: 4px 0px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Name {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 15px 60px;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px rgb(255, 255, 255);
+  border-style: inset;
+  border-width: 2px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.Contato-Direto {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 2px 38px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px rgb(255, 255, 255);
+  border-style: inset;
+  border-width: 2px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.Instagram {
+  background-color: rgb(131, 131, 131, 0.35);
+  border: solid red;
+  color: rgb(255, 106, 106);
+  padding: 10px 115px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 4px 0px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.Instagram:hover {
+  background-color: white;
+}
+
+.GitHub {
+  background-color: rgb(131, 131, 131, 0.35);
+  border: solid rgb(0, 0, 0);
+  color: black;
+  padding: 10px 122px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 4px 0px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.5s ease;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.GitHub:hover {
+  background-color: white;
+}
+
+.Discord {
+  background-color: rgb(131, 131, 131, 0.35);
+  border: solid hsl(227, 58%, 65%);
+  color: hsl(227, 58%, 65%);
+  padding: 10px 122px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 4px 0px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.5s ease;
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.Discord:hover {
+  background-color: white;
+}
+
+/* iPhone SE (1ª e 2ª geração), iPhone 5, 5S, 5C */
+@media (max-width: 320px) {
+  .box1 {
+    padding: 70% 30%;
+  }
+  .IMAGEN-LOGO {
+    width: 150px;
+    height: 150px;
+  }
+  .Name {
+    font-size: 20px;
+    padding: 10px 20px;
+    top: 32%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 15px 50px;
+  }
+  .Discord {
+    font-size: 20px;
+    padding: 15px 55px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 15px 60px;
+  }
+  .Contato-Direto {
+    font-size: 12px;
+    padding: 2px 10px;
+    top: 85%;
+  }
+}
+
+/* iPhone 6, 6S, 7, 8 */
+@media (min-width: 375px) and (max-width: 667px) {
+  .box1 {
+    padding: 47% 30%;
+  }
+  .IMAGEN-LOGO {
+    width: 150px;
+    height: 150px;
+  }
+  .Name {
+    font-size: 20px;
+    padding: 10px 20px;
+    top: 32%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 15px 60px;
+  }
+  .Discord {
+    font-size: 20px;
+    padding: 15px 65px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 15px 70px;
+  }
+  .Contato-Direto {
+    font-size: 12px;
+    padding: 2px 10px;
+    top: 85%;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (min-width: 414px) and (max-width: 736px) {
+  .box1 {
+    padding: 47% 30%;
+  }
+  .IMAGEN-LOGO {
+    width: 170px;
+    height: 170px;
+  }
+  .Name {
+    font-size: 24px;
+    padding: 10px 20px;
+    top: 37.5%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 15px 70px;
+  }
+  .Discord {
+    font-size: 20px;
+    padding: 15px 75px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 15px 80px;
+  }
+  .Contato-Direto {
+    font-size: 12px;
+    padding: 4px 14px;
+    top: 81%;
+  }
+}
+
+/* iPhone X, XS, 11 Pro */
+@media (min-width: 375px) and (max-height: 812px) {
+  .box1 {
+    padding: 47% 30%;
+  }
+  .IMAGEN-LOGO {
+    width: 170px;
+    height: 170px;
+  }
+  .Name {
+    font-size: 24px;
+    padding: 10px 20px;
+    top: 37.5%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 15px 70px;
+  }
+  .Discord {
+    font-size: 20px;
+    padding: 15px 75px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 15px 80px;
+  }
+  .Contato-Direto {
+    font-size: 12px;
+    padding: 4px 14px;
+    top: 81%;
+  }
+}
+
+/* Telas pequenas (telefones) */
+@media (max-width: 600px) {
+  .box1 {
+    padding: 48% 30%;
+  }
+  .IMAGEN-LOGO {
+    width: 170px;
+    height: 170px;
+  }
+  .Name {
+    font-size: 24px;
+    padding: 10px 20px;
+    top: 37.5%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 15px 70px;
+  }
+  .Discord {
+    font-size: 20px;
+    padding: 15px 75px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 15px 80px;
+  }
+  .Contato-Direto {
+    font-size: 12px;
+    padding: 4px 14px;
+    top: 81%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .box1 {
+    padding: 25% 16%;
+  }
+  .IMAGEN-LOGO {
+    width: 170px;
+    height: 170px;
+  }
+  .Name {
+    font-size: 24px;
+    padding: 10px 20px;
+    top: 37.5%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 15px 70px;
+  }
+  .Discord {
+    font-size: 20px;
+    padding: 15px 75px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 15px 80px;
+  }
+  .Contato-Direto {
+    font-size: 11px;
+    padding: 4px 14px;
+    top: 83%;
+  }
+}
+
+/* Desktops pequenos */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .box1 {
+    padding: 20% 15%;
+  }
+  .IMAGEN-LOGO {
+    width: 190px;
+    height: 190px;
+  }
+  .Name {
+    font-size: 27px;
+    padding: 10px 20px;
+    top: 35%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 25px 80px;
+  }
+  .Discord {
+    font-size: 21px;
+    padding: 25px 85px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 25px 90px;
+  }
+  .Contato-Direto {
+    font-size: 13px;
+    padding: 4px 14px;
+    top: 84.4%;
+  }
+}
+
+/* Desktops grandes */
+@media (min-width: 1440px) {
+  .box1 {
+    padding: 14% 10%;
+  }
+  .IMAGEN-LOGO {
+    width: 190px;
+    height: 190px;
+  }
+  .Name {
+    font-size: 27px;
+    padding: 10px 20px;
+    top: 35%;
+  }
+  .Instagram {
+    font-size: 20px;
+    padding: 25px 80px;
+  }
+  .Discord {
+    font-size: 21px;
+    padding: 25px 85px;
+  }
+  .GitHub {
+    font-size: 20px;
+    padding: 25px 90px;
+  }
+  .Contato-Direto {
+    font-size: 13px;
+    padding: 4px 14px;
+    top: 84.4%;
+  }
+}
+
+/*Animações*/
+@keyframes flutuar {
+  0% {
+    top: 13%;
+  }
+  100% {
+    top: 16%;
+  }
+}
