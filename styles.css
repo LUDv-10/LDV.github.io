@@ -149,6 +149,14 @@ body {
   background-color: white;
 }
 
+.QR {
+  width: 60px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*Animações*/
 @keyframes flutuar {
   0% {
