@@ -42,7 +42,7 @@ body {
   flex-flow: column;
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.158);
+  background-color: rgba(255, 255, 255, 0.247);
   border: solid rgb(206, 206, 206);
   border-radius: 30px;
   padding: 240px 140px;
@@ -51,7 +51,7 @@ body {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 0px 10px 5px rgba(202, 202, 202, 0.3);
+  box-shadow: 0px 0px 8px 4px rgba(202, 202, 202, 0.3);
 }
 
 .Name {
@@ -81,7 +81,7 @@ body {
   background-color: rgb(131, 131, 131, 0.35);
   border: solid red;
   color: rgb(255, 106, 106);
-  padding: 10px 60px;
+  padding: 10px 58px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -154,6 +154,30 @@ body {
   position: absolute;
   top: 22%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Instagram-logo {
+  width: 40px;
+  position: absolute;
+  top: 36.7%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.Discord-logo {
+  width: 40px;
+  position: absolute;
+  top: 57%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.GitHub-logo {
+  width: 90px;
+  position: absolute;
+  top: 77%;
+  left: 20%;
   transform: translate(-50%, -50%);
 }
 
